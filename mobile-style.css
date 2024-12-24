@@ -1,0 +1,390 @@
+/* for header */
+@media (max-width: 500px){
+    .header-contact{
+        padding-left: 10px;
+        height: 50px;
+        
+        font-weight: bold;
+    }
+    .icons{
+        color: white;
+        /* margin-right: 8px; */
+        font-weight:bolder;
+        font-size: 3vw;
+    }
+    
+    .i-name{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight:bold;
+        font-size: 3vw;
+        /* font-size: 1.5vh; */
+    }
+    .header-faq {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    
+    .header-faq a{
+        color: white;
+        text-decoration: none;
+        font-size: 3vw;
+        /* font-size: 1.5vh; */
+    }
+    
+    .Enq-btn{
+        float: left;
+        color: white;
+        padding: 2px 5px;
+        font-size: 1.5vh;
+        background-color: rgb(190, 34, 89);
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 750px){
+    .header-contact{
+        padding-left: 20px;
+        height: 50px;
+    }
+    .icons{
+        color: white;
+        /* margin-right: 8px; */
+        font-weight:bolder;
+        font-size: 15px;
+    }
+    
+    .i-name{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight:bold;
+        font-size: 1.8vh;
+    }
+    .header-faq {
+        margin-left: 10%;
+    }
+    
+    .header-faq a{
+        font-size: 1.8vh;
+    }
+    
+    .Enq-btn{
+        float: left;
+        color: white;
+        padding: 2px 5px;
+        font-size: 1.8vh;
+        background-color: rgb(190, 34, 89);
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1600px){
+    .header-contact{
+        width:100%;
+        height: 45px;
+        background-color: rgb(0, 0, 120);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 60px;
+    }
+    
+    .header-faq {
+        margin-left: 10%;
+    } 
+}
+
+@media (min-width: 751px) and (max-width: 1023px){
+    .header-contact{
+        padding-left: 20px;
+        height: 50px;
+    }
+    .icons{
+        color: white;
+        /* margin-right: 8px; */
+        font-weight:bolder;
+        font-size: 15px;
+    }
+    
+    .i-name{
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+        font-weight:bold;
+        font-size: 2vh;
+    }
+    
+    .header-faq {
+        margin-left: 10%;
+    }
+    
+    .header-faq a{
+        color: white;
+        text-decoration: none;
+        font-size: 2vh;
+    }
+    
+    .Enq-btn{
+        float: left;
+        color: white;
+        padding: 5px 10px;
+        font-size: 2vh;
+        background-color: rgb(190, 34, 89);
+    
+    }
+}
+
+@media (min-width: 1601px){
+    .header-faq {
+        margin-left: 41%;
+    } 
+}
+
+/* main header */
+@media (max-width:570px) {
+    .head-logo{
+        height: auto;
+        width: 150px;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:570px) and (max-width:1620px) {
+    .head-logo{
+        height: auto;
+        width: 150px;
+        margin-left: 0px;
+}
+
+.nacc-logo{
+    margin-left: 0px;
+}
+}
+
+
+@media (min-width:1621px){
+
+    .head-logo{
+        height: auto;
+        width: 150px;
+        /* margin-left: 250px; */
+}
+.nacc-logo{
+    margin-left: -600px;
+}
+}
+
+/* menu */
+/* Responsive behavior for small screens */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+}
+
+/* Responsive behavior for tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr 1fr; /* Two columns on medium screens */
+    }
+}
+
+/* founder section */
+@media (min-width: 1400px){
+    .founder-message{
+        margin-top: 60px;
+        height:130vh;
+        width: 100%;
+    }
+    
+    .background-image{
+        width: 100%;
+        height: 120vh;
+    }
+    
+    .overlay{
+        position:relative;
+        /* top: -104.5%; */
+        height: 120vh;
+        margin-top: 20px;
+    }
+    .head-founder{
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .founder-message{
+        margin-top: 60px;
+        height:70vh;
+        width: 100%;
+    }
+    .content{
+        display: none;
+    }
+    
+    .background-image{
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .overlay{
+        position:relative;
+        top: -104.5%;
+        margin-top: 25px;
+        height: 70vh;
+    }
+    .head-founder{
+        margin-top: 10px;
+    }
+    
+}
+
+/* for imgage slider */
+@media (max-width: 500px)
+{
+    .recent-photo{
+        top: 0px;
+        margin-top: -10%;
+        display: flex;
+        width: 100%;
+        height: 60vh;
+        justify-content:center;
+        background-color: rgb(247, 252, 246);
+        margin-bottom: 200px;
+        background: linear-gradient(140deg, rgb(159, 250, 255) 60%,rgb(48, 109, 233) 60%,rgb(209, 71, 255)) ;
+        background: linear-gradient(135deg, rgb(183, 249, 255) 40%,rgb(255, 101, 178) 60%,rgb(116, 255, 172)) ;
+    }
+    .photo h3{
+        font-size: 4vh;
+        text-align: center;
+        padding-top: 15%;
+        padding-bottom: -15%;
+        font-weight: 900;
+        font-family: cursive;
+        color: rgb(229, 31, 127);
+    }
+    .bgcolor{
+        width: 290px;
+        height: 300px;
+        background: #055cb9;
+        box-shadow: 0 0 15px 15px rgb(219, 218, 218);
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .image-slider img{
+        position: relative;
+        width: 290px;
+        height: 300px;
+        border-radius: 10px;
+        animation: zoom-in 5s ease-in-out infinite;
+    }
+}
+@media (min-width: 1001px){
+    .recent-photo{
+        top: 0px;
+        margin-top: 0%;
+        display: flex;
+        width: 100%;
+        max-height: 900px;
+        justify-content:center;
+        background-color: rgb(247, 252, 246);
+        margin-bottom: 200px;
+        /* background: linear-gradient(180deg, rgb(227, 217, 217) 60%,rgb(255, 0, 0) 60%,rgb(209, 71, 255)) ; */
+    }
+    .photo h3{
+        font-size: 5.5vh;
+        text-align: center;
+        margin-top: 0%;
+        font-weight: 900;
+        font-family: cursive;
+        color: rgb(247, 23, 191);
+    }
+    .bgcolor{
+        width: 800px;
+        height: 60vh;
+        background: transparent;
+        box-shadow: 0 0 15px 15px transparent;
+        border: 2px solid transparent;
+        /* border-radius: 10px; */
+    }
+    .image-slider img{
+        position: relative;
+        width: 800px;
+        height: 580px;
+        border-radius: 10px;
+        animation: zoom-in 5s ease-in-out infinite;
+    }
+ }
+
+ @media (min-width: 501px) and (max-width: 1000px){
+    
+        .recent-photo{
+            top: 0px;
+            margin-top: -10%;
+            display: flex;
+            width: 100%;
+            height: 105vh;
+            justify-content:center;
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 200px;
+            /* background: linear-gradient(150deg, 60%rgb(159, 250, 255) 60%,rgb(48, 109, 233) 60%,rgb(209, 71, 255)) ; */
+           
+        }
+        .photo h3{
+            font-size: 4vh;
+            text-align: center;
+            padding-top: 30%;
+            padding-bottom: -15%;
+            font-weight: 900;
+            font-family: cursive;
+            color: rgb(229, 31, 127);
+        }
+        .bgcolor{
+            width: 380px;
+            height: 60vh;
+            background: transparent;
+            box-shadow: 0 0 15px 15px transparent;
+            border: 2px solid transparent;
+            /* border-radius: 10px; */
+        }
+    .slide-img{
+        position: relative;
+        display: block;
+        width: 600px; /* Image takes 90% of its container width */
+        margin-left: auto; /* Center the image */
+        margin-right: auto; /* Center the image */
+        /* height: 70%; */
+        border-radius: 10px;
+        animation: zoom-in 5s ease-in-out infinite;
+ }
+}
+
+/* for course section */
+
+@media (min-width: 500px){
+    .course-box{
+        flex: 1 1 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1200px){
+    .coruse{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+         }
+}
+
+/* for faclity count */
+.facality-count{
+    margin: 0 0;
+    width: 100%;
+    height: auto;
+}
